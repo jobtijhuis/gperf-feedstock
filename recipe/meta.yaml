@@ -16,7 +16,8 @@ build:
 
 requirements:
   build:
-    - sed  # [osx]
+    - toolchain
+    - sed         # [osx]
 
 test:
   commands:
