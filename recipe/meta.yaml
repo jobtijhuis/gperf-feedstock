@@ -31,6 +31,7 @@ about:
   dev_url: http://savannah.gnu.org/projects/gperf/
   doc_url: https://www.gnu.org/software/gperf/manual/gperf.html
   license: GPL-3.0-or-later
+  license_file: COPYING
   summary: GNU gperf is a perfect hash function generator.
 
 extra:
