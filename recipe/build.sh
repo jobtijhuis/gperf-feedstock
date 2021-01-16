@@ -2,5 +2,7 @@
 
 ./configure --prefix="${PREFIX}"
 make
-make -j 1 check
+if [[ "$CONDA_BUILD_CROSS_COMPILATION" != 1 ]]; then
+    make -j 1 check
+fi
 make install
