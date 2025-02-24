@@ -18,17 +18,17 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
     - make
-    - m2-base # [win]
-    - m2-bash # [win]
-    - m2-sed  # [win]
-    - sed     # [osx]
+    - m2-base  # [win]
+    - m2-bash  # [win]
+    - m2-sed   # [win]
+    - sed      # [osx]
 
 test:
   commands:
-    - gperf --help        # [unix]
-    - gperf --version     # [unix]
-    - gperf.exe --help    # [win]
-    - gperf.exe --version # [win]
+    - gperf --help         # [unix]
+    - gperf --version      # [unix]
+    - gperf.exe --help     # [win]
+    - gperf.exe --version  # [win]
 
 about:
   home: https://www.gnu.org/software/gperf/
