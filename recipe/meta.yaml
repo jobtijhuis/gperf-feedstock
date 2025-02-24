@@ -22,8 +22,10 @@ requirements:
 
 test:
   commands:
-    - gperf --help
-    - gperf --version
+    - gperf --help        # [unix]
+    - gperf --version     # [unix]
+    - gperf.exe --help    # [win]
+    - gperf.exe --version # [win]
 
 about:
   home: https://www.gnu.org/software/gperf/
