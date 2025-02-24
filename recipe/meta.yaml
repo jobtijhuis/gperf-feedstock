@@ -18,7 +18,10 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
     - make
-    - sed  # [osx]
+    - m2-base # [win]
+    - m2-bash # [win]
+    - m2-sed  # [win]
+    - sed     # [osx]
 
 test:
   commands:
